@@ -1,18 +1,18 @@
 // Set up MySQL connection.
-var mysql = require("mysql");
+var mysql = require('mysql');
 
 // var connection = mysql.createConnection({
 
-//   if (process.env.JAWSDB_URL){
-//   connection = mysql.createConnection(process.env.JAWSDB_URL);
-// } else {
-//   connection = mysql.createConnection({
-//     host:'yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-//     user:'x6uiiynrdjwyd87h',
-//     password:'vopt415vuxknd7if',
-//     database:'szf6czp8fqw41tw2'
-//   });
-// };
+   //if (process.env.JAWSDB_URL){
+   //connection = mysql.createConnection(process.env.JAWSDB_URL);
+ //} else {
+   //connection = mysql.createConnection({
+    // host:'tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+     //user:'zv6nmltykxriees5',
+     //password:'b87ge7r3mgr8zy8k',
+     //database:'pnvzfjnkepwnk158'
+  // });
+ //};
 
 var connection = null;
 
@@ -29,10 +29,10 @@ if (process.env.JAWSDB_URL){
 
       //Heroku JAWS DB
       port: 3306,
-      host: "yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-      user: "x6uiiynrdjwyd87h",
-      password: "vopt415vuxknd7if",
-      database: "szf6czp8fqw41tw2"
+      host: "tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      user: "zv6nmltykxriees5",
+      password: "b87ge7r3mgr8zy8k",
+      database: "pnvzfjnkepwnk158"
       
   });
 }
